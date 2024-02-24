@@ -10,7 +10,7 @@
 """
 
 
-def is_anagram(word1, word2):
+def is_anagram(word1: str, word2: str) -> bool:
     if word1 == word2:
         return False
 
